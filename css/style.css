@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+ a {
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navbar a {
+    padding: 0.5em;
+}
+
+.navbar a:hover{
+    color:yellow;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.social {
+    text-align: center;
+    list-style-type:none;
+
+}
+
+.social ul li a {
+    padding: 0.5em;
+}
